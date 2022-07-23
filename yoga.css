@@ -1,41 +1,35 @@
 body {
-        color: rgb(5, 5, 4);
+        color: rgb(215, 215, 215);
         padding: 0px;
         margin: 0px;
         background: url("https://image.freepik.com/free-photo/silhouette-yoga-girl-is-practicing-rooftop-while-sunset_1150-21839.jpg");
         background-repeat: no-repeat;
         background-size: 100vw 100vh;
-        font-size: 17px;
+        font-size: 1.2em;
         font-family: 'kaisei Tokumin';
     }
 
-    .header {
-        /* border: 2px solid #e08484; */
-        background-color: rgb(235 136 0);
-    }
-
     .left {
-        border: 2px solid rgb(59, 65, 68);
         display: inline-block;
         position: absolute;
+        align-items: center;
         top: 17px;
         left: 20px;
-        background-color: rgb(15 133 109);
     }
 
     .left img {
-        width: 30px;
-        height: 25px;
+        width: 3.5rem;
+        height: 2.5rem;
         display: block;
         margin: 2px auto;
         float: left;
-        border: 2px solid white;
         border-radius: 10px;
     }
 
     .left div {
         float: right;
-        margin: 2px;
+        padding: 0.5em;
+        font-size: 1.5rem;
     }
 
     .mid {
